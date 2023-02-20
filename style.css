@@ -1,0 +1,207 @@
+/* DEFAULT VALUES */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #003147, white);
+    /*background-color: gainsboro #3525af;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Defining left and right portions*/
+main {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-gap: 1rem;
+    margin: 8px;
+}
+
+ul {
+    list-style: None;
+}
+
+li {
+    margin-top: 2rem;
+}
+
+/* LEFT PORTION */
+.left {
+    position: sticky;
+    background-color: #003147;
+    color: white;
+    border-radius: 10px;
+}
+
+/* IMAGE */
+.image-wrapper {
+    position: relative;
+    text-align: center;
+    margin: 20px
+}
+
+.image-wrapper img {
+    width: 95%;
+    border-radius: 10px;
+}
+
+.image-wrapper h3 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 1.5rem;
+    color: white;
+}
+
+/* CONTACT DETAILS */
+.contact-details-wrapper {
+    margin: 0 1rem;
+}
+
+/* LANGUAGES */
+.languages-wrapper {
+    margin: 0 1rem;
+}
+
+
+/* LINKS */
+.social-media-wrapper {
+    margin: 0 1rem;
+}
+
+.social-media-icons {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.linkedin-link,
+.github-link,
+.twitter-link {
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* CV DOWNLOAD*/
+.CV-wrapper {
+    margin: 0 1rem;
+}
+
+/*.cv-link {
+    color: white;
+    font-style: italic;
+    font-size: medium;
+}*/
+
+.CV-button {
+    margin-left: 8px;
+    width: 75px;
+    height: 30;
+
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 68);
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 yellow;
+    transition: ease-out 0.3s;
+    outline: none;
+
+}
+
+.CV-button:hover {
+    box-shadow: inset 75px 0 0 0 yellow;
+    color: black;
+}
+
+/* RIGHT PORTION */
+.right {
+    background-color: rgb(242, 236, 236);
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.biography-wrapper,
+.skills-wrapper,
+.education-wrapper,
+.work-experience-wrapper {
+    position: relative;
+    margin: 0 1rem;
+}
+
+/* EDUCATION*/
+.education-wrapper {
+    margin-left: 1rem;
+}
+
+.edu-section-wrapper {
+    display: flex;
+    padding-top: 10px;
+}
+
+.edu-title {
+    flex: 2;
+
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.grade {
+    font-weight: 500;
+    font-size: 10x;
+    padding: 5px;
+}
+
+.edu-info-wrapper {
+    display: flex;
+
+}
+
+.edu-info-wrapper .location {
+    text-align: center;
+    width: 1fr;
+    float: left;
+}
+
+.edu-info-wrapper .separator {
+    text-align: center;
+    width: 1fr;
+    margin: 0 5px;
+    padding: 4px;
+}
+
+.edu-info-wrapper .date {
+    text-align: center;
+    width: 1fr;
+    float: right;
+}
+
+
+/* WORK EXPERIENCE*/
+.work-title {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.work-info-wrapper {
+    display: flex;
+}
+
+.work-info-wrapper .location {
+    text-align: center;
+    width: 1fr;
+    float: left;
+}
+
+.work-info-wrapper .separator {
+    text-align: center;
+    width: 1fr;
+    margin: 0 5px;
+    padding: 4px;
+}
+
+.work-info-wrapper .date {
+    text-align: center;
+    width: 1fr;
+    float: right;
+}
