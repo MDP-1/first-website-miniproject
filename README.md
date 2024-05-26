@@ -1,2 +1,2 @@
 # Website
-My first website using HTML and CSS. 
+A basic website using simple HTML and CSS. 
